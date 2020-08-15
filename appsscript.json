@@ -1,0 +1,19 @@
+{
+  "timeZone": "GMT",
+  "oauthScopes": 
+  [
+    "https://www.googleapis.com/auth/gmail.addons.execute", 
+    "https://www.googleapis.com/auth/gmail.readonly"
+  ],
+  "runtimeVersion": "V8",
+  "gmail": 
+  {
+    "name": "Received Addresses Inventory",
+    "logoUrl": "https://raw.githubusercontent.com/google/material-design-icons/master/image/1x_web/ic_blur_linear_black_36dp.png",
+    "contextualTriggers":
+    [{
+      "unconditional": {},
+      "onTriggerFunction": "getContextualAddOn"
+    }]
+  }
+}
